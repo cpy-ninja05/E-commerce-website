@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' 
+    rel='stylesheet'
+    />
+</head>
+<body>
+    <header>
+        <div class="nav container">
+          <a href="#" class="logo">Ecommerce</a> 
+          <i class='bx bx-shopping-bag' id="cart-icon" data-quantity="0"></i>
+          <div class="cart">
+            <h2 class="cart-title">Your Cart</h2>
+
+            <div class="cart-content">
+                <div class="cart-box">
+                    <img src="product1.jpg" alt="" class="cart-img" />
+                    <div class="detail-box">
+                        <div class="cart-product-title">Product Shirt</div>
+                        <div class="cart-price">$50</div>
+                        <input 
+                        type="number" 
+                        name="" 
+                        id="" 
+                        value="1"
+                        class="cart-quantity"
+                        />
+                    </div>
+
+                    <i class="bx bx-trash-alt cart-remove" ></i>
+                </div>
+            </div>
+
+            <div class="total">
+                <div class="total-title">Total</div>
+                <div class="total-price">$0</div>
+            </div>
+
+            <button type="button" class="btn-buy">Pay Now</button>
+            
+            <i class='bx bx-x' id="close-cart"></i>
+          </div>
+        </div>
+    </header>
+
+    <section class="shop container">
+        <h2 class="section-title">Shop Products</h2>
+
+        <div class="shop-content">
+            
+            <div class="product-box">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyxd071WsuvwuxgYBZfiDe5TGR9vexuM6lKuN2ap0CQkrQI-MlqAUU8B4mtLU3MAd2ywPth8dKgOWzXLG-bFFH7w40yGuQpPxvRfAv-MYvFlXST-f2IZKsvRWS5YfEcgsnKwb1hsEClwqiSXdFAbEBLbCo13VefOYLVFLH-d1KH4SHaJP1j8tijZrwCGA/s320/product1.jpg" 
+                alt="" 
+                class="product-img"
+                />
+                <h2 class="product-title">INDIA T-SHIRT</h2>
+                <span class="price">$50</span>
+                <i class="bx bx-shopping-bag add-cart"></i>
+            </div>
+
+            <div class="product-box">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCs602AlZMr_5KKU6Qf4qIuUoyfsAIcbdRGauY4kpxHIAkz_05afdH5jAKHqdstr0UTO3vIT1qL81mnWXjTEFAFxsDzFMGTiPGZaE5P3aTyVWEEeY3tc58Sn5-UCa1naXEEtV4fLrgCdpHt5J_JnED6XMhOVmOe-9J1y_K7k3y12msKfgyTX0Wg4IH7ks/s320/product2.webp" 
+                alt="" 
+                class="product-img"
+                />
+                <h2 class="product-title">AIR JORDAN 1</h2>
+                <span class="price">$250</span>
+                <i class="bx bx-shopping-bag add-cart"></i>
+            </div>
+
+            <div class="product-box">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1eQnNrZl_nR_rpPuk43pbrmzEihQ2_tnF5bFqgeBGiGyYrktiakRj2MWXaD-R-2QLDhBN6bcdMRF1sZB92qPcFp4ledbpzGxh0W5X2VKUCpXmT0qwG1AYIUDs6K4kw3zh-ratKdNChsGpFIPB5Ypb0WX75zRzUOrIekaFn5wXHZKP0ZHuMkvivE3ctBM/s320/product3.jpg" 
+                alt="" 
+                class="product-img"
+                />
+                <h2 class="product-title">LEATHER JACKET</h2>
+                <span class="price">$200</span>
+                <i class="bx bx-shopping-bag add-cart"></i>
+            </div>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
